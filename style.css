@@ -1,0 +1,140 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/kansas.jpeg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* services section css */
+.servicesText.card {
+    min-height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.navbar {
+    background-color: black;
+}
+
+/* Increase space after the #about section */
+#about {
+    margin-bottom: 100px; /* You can increase this value as needed */
+}
+
+/* Or, if you prefer to increase space before the #portfolio section */
+#portfolio {
+    margin-top: 100px; /* You can increase this value as needed */
+}
+
+/* Or, if you prefer to increase space before the #portfolio section */
+#experience {
+    margin-top: 100px; /* You can increase this value as needed */
+}
+
+a {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits text color from parent elements */
+  }
+  
+  /* This style will apply to the entire card to indicate it's clickable */
+  .card {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition for shadow and transform */
+    cursor: pointer; /* Change mouse to pointer to indicate clickable */
+  }
+  
+  /* Hover effects for the card to provide visual feedback */
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to lift card */
+    transform: translateY(-5px); /* Slightly lifts the card */
+  }
+  
+  /* You can also style the .servicesIcon to enhance the visual effect */
+  .servicesIcon {
+    /* Icon styles (size, color, etc.) */
+    font-size: 2em; /* Example size */
+    color: #0056b3; /* Example color */
+  }
+  
+/* Footer styling */
+#footer {
+    background-color: black; /* Sets the background color to black */
+    color: white; /* Sets the text color to white for contrast */
+    padding: 40px 0; /* Adds padding above and below the content */
+}
+
+/* Footer content styling */
+#footer .inner {
+    max-width: 1200px; /* Sets the maximum width of the content within the footer */
+    margin: 0 auto; /* Centers the footer content */
+    padding: 0 20px; /* Adds padding on the sides */
+    display: flex; /* Enables flexbox layout */
+    flex-wrap: wrap; /* Allows the items to wrap as needed */
+    justify-content: space-between; /* Spaces out the content */
+    align-items: flex-start; /* Aligns items to the top */
+}
+
+/* Footer sections styling */
+#footer section {
+    margin-bottom: 20px; /* Adds margin below each section */
+}
+
+/* Footer heading styling */
+#footer h3, #footer h4 {
+    color: #fff; /* Sets the headings color to white */
+}
+
+/* Footer links styling */
+#footer a {
+    color: #fff; /* Sets the links color to white */
+    text-decoration: none; /* Removes underline from links */
+}
+
+#footer a:hover {
+    text-decoration: underline; /* Adds underline on hover for better user experience */
+}
+
+/* Social icons styling */
+#footer .icon {
+    color: #fff; /* Sets the social icon color to white */
+}
+
+/* Footer copyright styling */
+#footer .copyright {
+    text-align: center; /* Centers the text */
+    color: #fff; /* Sets the text color to white */
+    padding: 20px 0; /* Adds padding above and below the text */
+    font-size: 0.8em; /* Sets a smaller font size */
+}
+
+.col-md-6 ul {
+    width: 150%; /* Adjust the width as necessary */
+}

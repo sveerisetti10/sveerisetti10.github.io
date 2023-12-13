@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Sri</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sriramteja Veerisetti</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h3 class="hero_title">Welcome to Sri Veerisetti's Personal Website!</h3>
+                    <p class="hero_desc">MEng Candidate in Artificial Intelligence @ Duke University</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Your existing HTML content can continue here -->
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/sri.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Sriramteja Veerisetti</li>
+                                <li>Hometown: Kansas City, KS</li>
+                                <li>MEng Artificial Intelligence Candidate | Duke University Class of 2024</li>
+                                <li>MS Bioinformatics | Boston University Class of 2023</li> 
+                                <li>BA Biochemistry, Minor in Business | University of Kansas Class of 2021</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> Hello everyone, my name is Sri Veerisetti! I am currently pursuing a Master of Engineering degree in Artificial Intelligence at Duke University's Pratt School of Engineering. My academic foundation includes a Master of Science in Bioinformatics from Boston University and a Bachelor of Arts in Biochemistry with a minor in Business from the University of Kansas. 
+                            Equipped with proven skills in programming languages such as Python, R, SQL, JavaScript, and HTML/CSS, I am passionate about using AI, ML, and other computational tools to make a positive impact on a variety of domains, such as medicine, finance, and tech. I am eager to collaborate with like-minded professionals and contribute in meaningful ways to these fields. 
+                            At this time, I am actively seeking internships in data science or machine learning engineering and welcome any opportunity to connect and learn. Please feel free to reach out at sri.veerisetti@duke.edu!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+    <!-- services section-->
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-layer-group"></i>
+                            <h4 class="card-title mt-3">Biological Transposon Database</h4>
+                            <p class="card-text mt-3">Computational tools were used to analyze large amounts of genomic data and identify and characterize transposons within the four different
+                                species genomes. These tools helped convey the types of transposons present, 
+                                their distribution, abundance, and potential effects on genome organization within each species.
+                            </p>
+                            <p class="card-text mt-3">
+                                GitHub Repository: <a href="https://github.com/sveerisetti10/Transposon_Database" target="_blank">https://github.com/sveerisetti10/Transposon_Database</a>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Philharmonica Orchestra Subscription Prediction</h4>
+                            <p class="card-text mt-3">Predicted  which of the previous patrons of an orchestra will likely purchase a season subscription for the 2014-2015 season. 
+                            </p>
+                                GitHub Repository: <a href="https://github.com/sveerisetti10/Duke-AI-Modeling-2023-Kaggle-Competition" target="_blank">https://github.com/sveerisetti10/Duke-AI-Modeling-2023-Kaggle-Competition</a>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Optimizing Prostate Cancer Brachytherapy</h4>
+                            <p class="card-text mt-3">Explored a real-world application in prostate cancer treatment at the Memorial Sloan - Kettering Cancer Center, where the 
+                                challenge was to optimize radioactive seed placement in brachytherapy. It involved calculating radiation exposure, strategizing seed placement to safeguard healthy tissue, 
+                                and expressing this optimization problem in accessible language and mathematical models, supplemented by Python programming.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section-->
+    <section id="experience">
+        <div class="container">
+            <h1 class="text-center">Experience</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-layer-group"></i>
+                            <h4 class="card-title mt-3">Outer Biosciences</h4>
+                            <p class="card-text mt-3">Developed an automated, Python-based, RNA-Sequencing pipeline for data processing, quality control, differential expression, 
+                                and gene set enrichment analysis. Utilized JavaScript and D3.js for filtering and visualizing GSEA results.
+                            </p>
+                            <p class="card-text mt-3">Skills: Python, Javascript, D3.js.
+                            </p>
+                            Company Website: <a href="https://www.outerbio.com/" target="_blank">https://www.outerbio.com/</a>
+                            </p>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">The EVERY Company</h4>
+                            <p class="card-text mt-3">Engineered an R Shiny application that incorporates an array of bioinformatics, statistics, and data visualization principles.
+                            </p>
+                            <p class="card-text mt-3">Skills: R, R Shiny, Data Analysis & Visualization.
+                            </p>
+                            </p>
+                            Company Website: <a href="https://theeverycompany.com/" target="_blank">https://theeverycompany.com/</a>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">PLUS Biology Director</h4>
+                            <p class="card-text mt-3">Taught weekly sessions for all students in introductory biology courses at KU in small group settings of approximately 10-15 students and 
+                                led class-wide exam review sessions that ranged in attendance size from 50-300 students.
+                            </p>
+                            <p class="card-text mt-3">Skills: Tutoring, Mentorship, Teamwork, and Leadership.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    </section><!-- Footer --><footer id="footer"><div class="inner">
+        <div class="content">
+                </ul></section><section><h4>Relevant Links:</h4>
+                </p>
+                LinkedIn: <a href="https://www.linkedin.com/in/sriramteja-veerisetti-29a697223/" target="_blank">https://www.linkedin.com/in/sriramteja-veerisetti-29a697223/</a>
+                </p>
+                </p>
+                GitHub: <a href="https://github.com/sveerisetti10" target="_blank">https://github.com/sveerisetti10</a>
+                </p>
+       
+    </div>
+    </footer><div id="copyright " class="copyright">
+    
+    <!-- Load JavaScript after loading all HTML content -->
+    <script src="script/script.js"></script>
+    <script>
+        // Add class navbarDark on navbar scroll
+        const header = document.querySelector('.navbar');
+    
+        window.onscroll = function() {
+            var top = window.scrollY;
+            if (top >= 100) {
+                header.classList.add('navbarDark');
+            } else {
+                header.classList.remove('navbarDark');
+            }
+        };
+    </script>
+    
+    
+</body>
+</html>
